@@ -1,3 +1,9 @@
+## The two functions below can be tested using the "test.R" script found in the same
+## directory.  The original Test Code was outlined in Coursera R-programming forum :
+## "Forums / Programming Assignment 2 (peer assessment): Lexical Scoping by Jules Stuifbergen"
+## 
+## File "OUTPUT-test.png" in the same directory is a screengrab of a typical run of the "test.R".
+## 
 ## makeCacheMatrix creates a special "matrix" which is a list containing functions to:
 ## 1.  set the value of the matrix
 ## 2.  get the value of the matrix
@@ -6,7 +12,7 @@
 
 ## The critical/definitive operator to achieve this is by use of the "Super-assignment" 
 ## operator  " <<- ".
-## NOTE:  makeCacheMatrix will only work on SQUARE matrix.
+## NOTE:  makeCacheMatrix will only work on "invertible" matrices eg.  SQUARE matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         mInv <- NULL
