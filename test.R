@@ -1,6 +1,8 @@
-# Test your code
-#source("cachematrix.R")
-#
+## The original Test Code was outlined in Coursera R-programming forum :
+## "Forums / Programming Assignment 2 (peer assessment): Lexical Scoping by Jules Stuifbergen" 
+## Test your code
+## source("cachematrix.R")
+
 # generate matrix, and the inverse of the matrix.
 size <- 4000 # size of the matrix edge, don't make this too big
 print("Square Matrix size")
