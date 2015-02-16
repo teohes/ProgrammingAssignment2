@@ -2,7 +2,8 @@
 ## directory.  The original Test Code was outlined in Coursera R-programming forum :
 ## "Forums / Programming Assignment 2 (peer assessment): Lexical Scoping by Jules Stuifbergen"
 ## 
-## File "OUTPUT-test.png" in the same directory is a screengrab of a typical run of the "test.R".
+## File "OUTPUT-test.png" in the same directory is a screengrab of a typical run of "test.R".
+## NOTE the time went from 2.25 min to compute the inverse to 0.001 sec to fetch from the cache !
 ## 
 ## makeCacheMatrix creates a special "matrix" which is a list containing functions to:
 ## 1.  set the value of the matrix
